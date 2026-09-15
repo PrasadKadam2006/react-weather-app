@@ -41,3 +41,44 @@ The application displays the following information:
 
 ```bash
 git clone https://github.com/PrasadKadam2006/react-weather-app.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd react-weather-app
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Create the environment file
+
+Create a `.env` file in the root directory of the project.
+
+Add your OpenWeather API key:
+
+```env
+VITE_WEATHER_API_KEY=your_api_key_here
+```
+
+Replace `your_api_key_here` with your own OpenWeather API key.
+
+### 5. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal to use the application.
+
+## Author
+
+**Prasad Avinash Kadam**
+
+B.Tech Computer Science Engineering Student
+
+GitHub: https://github.com/PrasadKadam2006
