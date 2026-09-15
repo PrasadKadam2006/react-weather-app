@@ -1,16 +1,43 @@
-# React + Vite
+# React Weather App 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A weather application built with React.js that allows users to search for a city and view its current weather information using the OpenWeather API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search weather by city name
+- Display current temperature
+- Display minimum and maximum temperature
+- Display humidity
+- Display feels-like temperature
+- Display weather conditions
+- Dynamic weather images based on weather conditions
+- Error handling for invalid city names
+- Clean user interface using Material UI
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- Vite
+- Material UI
+- CSS
+- OpenWeather API
+- REST API
 
-## Expanding the ESLint configuration
+## Weather Information
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application displays the following information:
+
+- Temperature
+- Minimum Temperature
+- Maximum Temperature
+- Humidity
+- Feels Like Temperature
+- Weather Condition
+
+## How to Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/PrasadKadam2006/react-weather-app.git
